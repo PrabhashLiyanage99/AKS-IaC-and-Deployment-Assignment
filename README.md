@@ -9,7 +9,8 @@ Verify that the Terraform tool has been installed correctly
 
 ```sh
 terraform --version
-
+```
 ```sh
 Terraform v1.11.2
 on windows_amd64
+```
