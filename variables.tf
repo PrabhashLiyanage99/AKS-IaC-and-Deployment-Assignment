@@ -10,6 +10,11 @@ variable "location" {
   description = "resource region"
 }
 
+variable "storage_account_name" {
+  type        = string
+  description = "storage acc. name"
+}
+
 variable "aks_cluster_name" {
   type        = string
   default     = "bistec-aks-assignment"
