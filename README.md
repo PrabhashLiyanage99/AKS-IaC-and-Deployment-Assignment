@@ -1,1 +1,1 @@
-# AKS IaC and Deployment Assignment 🚀  
+# AKS IaC and Deployment Assignment :moneybag:
