@@ -1,9 +1,18 @@
-# Terraform files
+# Terraform-related files
 .terraform/
 *.tfstate
 *.tfstate.backup
-.terraform.lock.hcl
+tfplan
+*.tfplan
+*.backup
 terraform-provider-*
+
+# kubernetes-related files
+kubeconfig.yaml
 
 # Sensitive files
 var.sh
+*.log
+
+# lock files
+.terraform.lock.hcl
