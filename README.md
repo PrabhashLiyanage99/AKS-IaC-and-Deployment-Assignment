@@ -4,10 +4,12 @@ This project demonstrates setting up an **Azure Kubernets Service (AKS) cluster*
 
 ##  The steps took to set up the AKS cluster :feet:
 
-### **:one: check terraform version
+### :one: check terraform version
+Verify that the Terraform tool has been installed correctly
 
 ```sh
-PS C:\Users\Prabash> terraform --version
+terraform --version
+
+```sh
 Terraform v1.11.2
 on windows_amd64
-PS C:\Users\Prabash>
