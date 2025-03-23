@@ -11,6 +11,9 @@ This project demonstrates setting up an **Azure Kubernets Service (AKS) cluster*
 ```sh
 curl http://135.234.251.46:80
 ```
+### Link to working cluster screenshorts 
+https://drive.google.com/drive/folders/1B_Zt9cy-cgaTtStCI6TgdqXVH8hvSYEE?usp=sharing
+
 ##  The steps took to set up the AKS cluster :feet:
 
 ### :one: check terraform version
