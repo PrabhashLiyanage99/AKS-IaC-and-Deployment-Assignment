@@ -196,7 +196,7 @@ PS D:\Projects\AKS IaC and Deployment Assignment> kubectl get services
 NAME            TYPE           CLUSTER-IP    EXTERNAL-IP      PORT(S)        AGE
 nginx-service   LoadBalancer   10.0.64.225   135.234.251.46   80:30836/TCP   12h
 ```
-### :eignt: Test the app
+### :eight: Test the app
 
 ```sh
  curl http://135.234.251.46
@@ -319,7 +319,39 @@ Events:                      <none>
 
 ```
 AKS IAC AND DEPLOYMENT ASSIGNMENT/
-|- .terraform
+|---.terraform
 |   |-providers
 |   |-terraform.tfstate
-|-
+|
+|---infrastructure
+|   |-aks.tf
+|   |-backend.tf
+|   |-local.tf
+|   |-main.tf
+|   |-outputs.tf
+|   |-provider.tf
+|   |-resource_group.tf
+|   |-storage_acc.tf
+|   |-variables.tf
+|
+|---k8s-manifests
+|   |-deployment.yaml
+|   |-service.yaml
+|
+|---scripts
+|   |-backend.sh
+|   |-var.sh
+|
+|---.gitignore
+|---.terraform.lock.hcl
+|---kubeconfig.yaml
+|---README.md
+|---terraform.tfstate.backup
+|---tfplan
+```
+### Contributor :technologist:
+Prabhash Pramodha Liyanage
+Devops Engineer Intern
+Faculty of Information Technology
+University of Moratuwa
+prabhashpramodha99@gmail.com
