@@ -7,7 +7,10 @@ This project demonstrates setting up an **Azure Kubernets Service (AKS) cluster*
 ```
  http://135.234.251.46
  ```
-
+### Access the application via curl 
+```sh
+curl http://135.234.251.46:80
+```
 ##  The steps took to set up the AKS cluster :feet:
 
 ### :one: check terraform version
@@ -100,7 +103,7 @@ Changes to Outputs:
   + storage_account_id                 = (known after apply)
   + storage_account_name               = "bistecproject123"
   + storage_account_primary_access_key = (sensitive value)
-  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+  ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.       
 Releasing state lock. This may take a few moments...
@@ -128,6 +131,11 @@ Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
 
 Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
 ```
+### Cleanup AKS cluster(If need)
+```sh
+terraform destroy -auto-approve
+```
+
 ### :five: Configure kubectl to connect to AKS
 
 kubeconfig is the kube configuration file for the newly created cluster.Inspect the cluster pods using the generated kubeconfig file.
