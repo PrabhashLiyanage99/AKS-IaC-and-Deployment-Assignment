@@ -350,8 +350,8 @@ AKS IAC AND DEPLOYMENT ASSIGNMENT/
 |---tfplan
 ```
 ### Contributor :technologist:
-Prabhash Pramodha Liyanage
-Devops Engineer Intern
-Faculty of Information Technology
-University of Moratuwa
-prabhashpramodha99@gmail.com
+*Prabhash Pramodha Liyanage*
+*Devops Engineer Intern*
+*Faculty of Information Technology*
+*University of Moratuwa*
+*prabhashpramodha99@gmail.com*
