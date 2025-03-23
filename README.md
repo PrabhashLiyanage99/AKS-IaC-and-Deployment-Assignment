@@ -2,6 +2,12 @@
 
 This project demonstrates setting up an **Azure Kubernets Service (AKS) cluster** using **Terraform** and deploying a simple **Nginx application** via Kubernetes YAML manifests.
 
+## Access the Application in Browser
+
+```
+ http://135.234.251.46
+ ```
+
 ##  The steps took to set up the AKS cluster :feet:
 
 ### :one: check terraform version
